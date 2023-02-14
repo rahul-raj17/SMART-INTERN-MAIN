@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap'); 
+html{
+  font-size: 63.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none; border:none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+*::selection{
+  background:#15a0e0;
+  color:rgb(255, 255, 255);
+}  
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Roboto";
+    list-style: none;
+    box-sizing: border-box;
+    background: rgb(255, 249, 249);
+  }
+
+section {
+    padding:2rem 9%;
+  }
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* .course-box{
+    height: 380px;
+    align-content: center;
+    color: rgb(11, 0, 0);
+    border: 1px;
+}
+
+.course-box:hover{
+    box-shadow: .15px .15px 0px 2.5px rgb(195, 132, 132);
+}
+
+.course-img{
+    height: 170px;
+    width: 205px;
+}
+
+.text-box{
+    padding-top: 15px;
+    text-align: center;
+} */
+
+
+
+
+
+
+/* ****************************************** */
+
+.maintext{
+  text-align: center;
+  margin-top: 12rem;
+  margin-bottom: 4rem;
+  font-size: 4rem;
+  color: #15a0e0;
+}
+
+.heading{
+    padding: 2.5rem 0;
+  }
+  
+  .heading span{
+    font-size: 3.5rem;
+    background:rgba(71, 101, 118, 0.2);
+    color: #156de9;
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+  }
+  
+
+.box{
+    background-color: rgb(255, 255, 255);
+  }
+  .box-rev{
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    padding:1rem;
+    text-align: center;
+    font-size: 5rem;
+    color:rgb(188, 70, 70);
+  }
+  .services .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+  }
+  
+  .services .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem;
+  }
+  
+  .services .box-container .box{
+    flex: 1 1 30rem;
+    border-radius: .8rem;
+    padding:1.5rem;
+    text-align: center;
+  }
+  
+  .services .box-container .box img{
+      height: 280px;
+    padding:1rem;
+    color:#d7e915;
+
+  }
+  .services .box-container .box a{
+    
+  padding:1rem;
+  font-size: 1.5rem;
+  color:#2889e3;
+
+}
+  
+  .services .box-container .box h3{
+    font-size: 2.5rem;
+    color:#333;
+  }
+  
+  .services .box-container .box p{
+    font-size: 1.5rem;
+    color:#666;
+    padding:1rem 0;
+  }
+  
+  .services .box-container .box:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  }
+  
+ 
+  
+  
